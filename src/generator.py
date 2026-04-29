@@ -149,7 +149,6 @@ def _format_documents(documents) -> str:
 
     return "\n\n".join(formatted_docs)
 
-
 if __name__ == "__main__":
     prompt = create_rag_prompt()
     print("Default prompt template:")
